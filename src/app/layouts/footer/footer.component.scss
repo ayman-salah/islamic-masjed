@@ -1,0 +1,91 @@
+@import "../../sass/variables";
+.footer {
+  background-color: $--black2;
+  color: #fff;
+  padding: 3rem 1rem;
+  .container {
+  }
+  &__boxs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid;
+    padding: 3rem;
+    box-shadow: 0 0 4px #fff;
+    @media (max-width:768px) {
+      justify-content: space-between;
+    }
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+    h2 {
+      border: none;
+    }
+    h3 {
+      border: none;
+    }
+    h1 {
+      border: none;
+      font-size: 1.5rem;
+    }
+    p {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      a{
+        margin-right: 1rem;
+      }
+      i {
+        color: #f6d2a3;
+        font-size: 1.7rem;
+      }
+    }
+
+    ul {
+      border: none;
+
+      li {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        color: #f6d2a3;
+        a {
+          color: #ffffff;
+        }
+      }
+      &:nth-of-type(2) {
+      }
+    }
+    form {
+      input {
+        padding: 0.4rem;
+        background-color: #161722;
+        border: 1px solid #FFF;
+        width: 13rem;
+        border-right: none;
+        color: #FFF;
+      }
+      button {
+
+    border: none;
+    font-size: 1rem;
+    width: 6rem;
+    padding: 0.5rem;
+      }
+    }
+    &:nth-child(1) {
+      width: 26rem;
+    }
+    &:nth-child(2) {
+      width: 20rem;
+    }
+    &:nth-child(3) {
+      width: 20rem;
+    }
+    &:nth-child(4) {
+      width: 19rem;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@import "../../../../sass/variables";
+.serve {
+  position: relative;
+    height: 48rem;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .box {
+    width: 49rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    border-bottom: 1rem solid #f6d2a3;
+    padding: 4rem;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #fff;
+    height: 33rem;
+    @media (max-width:768px) {
+      height: 35rem;
+    }
+    h1 {
+      font-size: 3rem;
+      i{
+        color: $--orange1;
+      }
+    }
+    p {
+      color: grey;
+      font-size: 1.6rem;
+    }
+    button {
+      font-weight: bold;
+      text-transform: unset;
+      width: 20rem;
+      font-size: 2.4rem;
+    }
+  }
+}

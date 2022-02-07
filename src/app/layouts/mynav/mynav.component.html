@@ -1,0 +1,13 @@
+<div class="mynav " [ngClass]="{'navactive': navstatus}">
+  <div class="container">
+    <h3 class="mynav__logo">finsweet</h3>
+    <ul class="mynav--ul" [ngClass]="{'list-active': listactive}">
+      <li class="mynav--ul--li"><a (click)="listactive = false" class="mynav--ul--li--a" routerLink="">home</a></li>
+      <li class="mynav--ul--li"><a (click)="listactive = false" class="mynav--ul--li--a" routerLink="aboutUs">about us</a></li>
+      <li class="mynav--ul--li"><a (click)="listactive = false" class="mynav--ul--li--a" routerLink="sermon">sermon</a></li>
+      <li class="mynav--ul--li"><a (click)="listactive = false" class="mynav--ul--li--a" routerLink="blog">blog</a></li>
+      <li class="mynav--ul--li"><a (click)="listactive = false" class="mynav--ul--li--a btn my-btn" routerLink="contactUs">contact us</a></li>
+    </ul>
+    <i class="fas fa-bars" [ngClass]="{'fa-times': listactive}" (click)="listactive  = !listactive"></i>
+  </div>
+</div>

@@ -1,0 +1,83 @@
+@import '../../sass/variables';
+.mynav{
+  background-color:$--black1;
+  padding: 0.5rem;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  &.navactive{
+    background-color: rgba(0, 0, 0, 0.63);
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    @media (max-width:768px) {
+      justify-content: space-between;
+    }
+  }
+  &__logo{
+    align-self: flex-start;
+    color: #FFF;
+    font-size: 3.5rem;
+  }
+  &--ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 44rem;
+    margin-left: 7rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: auto;
+    @media (max-width: 768px) {
+      display: none;
+      position: absolute;
+      left: 0px;
+      top: 5.5rem;
+      background-color: $--black2;
+      margin-left: 0rem;
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+      box-shadow: 0 0 4px $--orange1;
+      border-radius: 5px;
+      font-size: 1.8rem;
+    }
+    &.list-active {
+        display: block;
+    }
+    &--li{
+      &:last-of-type{
+          a{
+
+          }
+      }
+      @media (max-width:768px) {
+        margin: 1rem 0.5rem;
+        padding-left: 1.4rem;
+        &:hover{
+          padding-left: 2rem;
+          color: antiquewhite;
+        }
+      }
+      &--a{
+      color: #FFF;
+      }
+    }
+  }
+  .fas{
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    color: #FFF;
+    display: none;
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+
+}

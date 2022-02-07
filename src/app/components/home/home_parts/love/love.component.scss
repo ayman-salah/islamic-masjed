@@ -1,0 +1,85 @@
+@import "../../../../sass/variables";
+.love {
+  .container {
+  }
+  &--span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    &:nth-of-type(2) {
+      font-size: 0.7rem;
+      font-weight: normal;
+    }
+  }
+  &--h2 {
+    font-size: 3.5rem;
+    margin: 1rem 0rem 4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  &--p {
+    font-weight: bold;
+    color: grey;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 75rem;
+    margin: 1rem auto 4rem;
+    &:nth-of-type(2){
+      margin-bottom: .3rem;
+    }
+    @media (max-width: 520px) {
+      width: 33rem;
+    }
+  }
+  button {
+    margin: auto;
+    display: block;
+  }
+
+  &--h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+  }
+  &--a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: auto;
+&:hover{
+  font-size: 1.5rem;
+}
+  }
+  &__boxs-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    position: relative;
+
+    &__box {
+      width: 25rem;
+      height: 25rem;
+      overflow: hidden;
+      margin: 0.4rem;
+      overflow: hidden;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgb(103, 99, 107);
+      @media (max-width: 786px) {
+        width: 40rem;
+      }
+
+      &--img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        &:hover {
+          transform: scale(1.3);
+        }
+      }
+    }
+  }
+}

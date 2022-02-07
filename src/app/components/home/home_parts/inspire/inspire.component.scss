@@ -1,0 +1,62 @@
+@import "../../../../sass/variables";
+.inspire {
+  padding: 4rem 0px;
+  .container {
+  }
+  &__boxs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.4rem;
+    @media (max-width: 1120px) {
+      justify-content: space-around;
+    }
+    &__box {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      background-color: #fdf5eb;
+      width: 24rem;
+      margin: 0.5rem;
+      padding: 3rem 1rem;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px #a3a3cd;
+      &:hover{
+        background-color: #efecec;
+        transform: scale(1.05);
+      }
+      @media (max-width: 1120px) {
+        width: 23rem;
+        margin-bottom: 2rem;
+      }
+      @media (max-width:500px) {
+        width: 50rem;
+        margin-bottom: 2rem;
+      }
+      &--span {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: $--orange1;
+        margin-bottom: 0.8rem;
+      }
+      &--h2 {
+        font-size: 1.7rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      &--p {
+        font-size: 1.3rem;
+      }
+      &--h3 {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        border-top: 1px solid;
+        padding-top: 0.5rem;
+      }
+      &--h4 {
+        font-size: 1.3rem;
+        font-weight: normal;
+      }
+    }
+  }
+}
