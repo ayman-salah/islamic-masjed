@@ -9,9 +9,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid;
     padding: 3rem;
-    box-shadow: 0 0 4px #fff;
+    box-shadow: 0 0 4px #f6d2a37a;
     @media (max-width:768px) {
       justify-content: space-between;
     }

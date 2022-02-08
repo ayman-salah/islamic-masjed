@@ -17,6 +17,10 @@ import { JoinUsComponent } from './components/home/home_parts/join-us/join-us.co
 import { ServeComponent } from './components/home/home_parts/serve/serve.component';
 import { InspireComponent } from './components/home/home_parts/inspire/inspire.component';
 import { FooterComponent } from './layouts/footer/footer.component';
+import { AboutHeaderComponent } from './components/about-us/aboutParts/about-header/about-header.component';
+import { AboutInfoComponent } from './components/about-us/aboutParts/about-info/about-info.component';
+import { AboutBenefitsComponent } from './components/about-us/aboutParts/about-benefits/about-benefits.component';
+import { AboutMembersComponent } from './components/about-us/aboutParts/about-members/about-members.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +38,10 @@ import { FooterComponent } from './layouts/footer/footer.component';
     ServeComponent,
     InspireComponent,
     FooterComponent,
+    AboutHeaderComponent,
+    AboutInfoComponent,
+    AboutBenefitsComponent,
+    AboutMembersComponent,
   ],
   imports: [
     BrowserModule,

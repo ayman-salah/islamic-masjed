@@ -21,9 +21,10 @@
       padding: 3rem 1rem;
       border-radius: 5px;
       box-shadow: 1px 1px 3px #a3a3cd;
+      border-bottom: .5rem solid $--orange1;
+      cursor: pointer;
       &:hover{
-        background-color: #efecec;
-        transform: scale(1.05);
+        background-color: #efececa4;
       }
       @media (max-width: 1120px) {
         width: 23rem;

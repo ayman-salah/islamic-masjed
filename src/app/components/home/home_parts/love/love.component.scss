@@ -1,23 +1,15 @@
 @import "../../../../sass/variables";
 .love {
+  margin-top: 4rem;
   .container {
   }
   &--span {
-    display: block;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
     &:nth-of-type(2) {
       font-size: 0.7rem;
       font-weight: normal;
     }
   }
-  &--h2 {
-    font-size: 3.5rem;
-    margin: 1rem 0rem 4rem;
-    font-weight: bold;
-    text-align: center;
-  }
+
   &--p {
     font-weight: bold;
     color: grey;
@@ -69,7 +61,9 @@
       border-radius: 5px;
       box-shadow: 0 0 5px rgb(103, 99, 107);
       @media (max-width: 786px) {
-        width: 40rem;
+        width: 22rem;
+        height: 31rem;
+        margin: 1rem;
       }
 
       &--img {
