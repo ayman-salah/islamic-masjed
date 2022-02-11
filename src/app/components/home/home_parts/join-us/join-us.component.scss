@@ -55,6 +55,7 @@ font-size: 1.5rem;
           padding: 0.4rem 1.2rem;
           font-size: 1.6rem;
           text-transform: capitalize;
+          align-self: flex-start;
        }
       }
       &.photo{
@@ -62,7 +63,7 @@ font-size: 1.5rem;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         @media (max-width:768px) {
-          border-radius: 10px;
+          border-radius: 0px;
         }
         img{
           width: 100% ;

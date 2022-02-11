@@ -1,0 +1,38 @@
+@import '../../../../sass/variables';
+.all-blog-posts{
+
+  .boxs-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0.3rem;
+    .box{
+      width: 22rem;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      background-color: #FFF;
+      padding: 1.8rem;
+      border-bottom: 5px solid #f6d2a3;
+      box-shadow: 1px 1px 3px #9c9ce5;
+      margin: 1.4rem;
+      span{
+        font-size: 1rem;
+        color: $--orange1;
+
+      }
+      h4{
+        font-size: 2rem;
+      }
+      p{
+        font-size: 1.5rem;
+        &:nth-of-type(2){
+          border-top: 1px solid $--orange1;
+          padding: .5rem 0rem;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

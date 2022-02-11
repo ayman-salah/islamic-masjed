@@ -9,5 +9,17 @@
 </head>
 <body>
   <app-root></app-root>
+
+
+  <script>
+    window.onscroll = function(){
+      if(window.scrollY > 300 ){
+        document.querySelector('.btn-up').style.display = "block";
+      }
+      else{
+        document.querySelector('.btn-up').style.display = "none";
+      }
+    }
+  </script>
 </body>
 </html>

@@ -21,6 +21,13 @@ import { AboutHeaderComponent } from './components/about-us/aboutParts/about-hea
 import { AboutInfoComponent } from './components/about-us/aboutParts/about-info/about-info.component';
 import { AboutBenefitsComponent } from './components/about-us/aboutParts/about-benefits/about-benefits.component';
 import { AboutMembersComponent } from './components/about-us/aboutParts/about-members/about-members.component';
+import { SermonHeaderComponent } from './components/sermon/sermon_parts/sermon-header/sermon-header.component';
+import { SermonEventsComponent } from './components/sermon/sermon_parts/sermon-events/sermon-events.component';
+import { SermonTrustComponent } from './components/sermon/sermon_parts/sermon-trust/sermon-trust.component';
+import { RecentPostComponent } from './components/blog/blogparts/recent-post/recent-post.component';
+import { AllBlogPostsComponent } from './components/blog/blogparts/all-blog-posts/all-blog-posts.component';
+import { ContactHeaderComponent } from './components/contact-us/contactParts/contact-header/contact-header.component';
+import { ContactFormsComponent } from './components/contact-us/contactParts/contact-forms/contact-forms.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +49,13 @@ import { AboutMembersComponent } from './components/about-us/aboutParts/about-me
     AboutInfoComponent,
     AboutBenefitsComponent,
     AboutMembersComponent,
+    SermonHeaderComponent,
+    SermonEventsComponent,
+    SermonTrustComponent,
+    RecentPostComponent,
+    AllBlogPostsComponent,
+    ContactHeaderComponent,
+    ContactFormsComponent,
   ],
   imports: [
     BrowserModule,

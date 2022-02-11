@@ -25,6 +25,7 @@
       cursor: pointer;
       &:hover{
         background-color: #efececa4;
+        border-color: #000;
       }
       @media (max-width: 1120px) {
         width: 23rem;

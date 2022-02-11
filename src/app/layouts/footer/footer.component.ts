@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+    page_up () {
+    document.documentElement.scrollTop = 0;
+  }
+
+
+  constructor() {
+
+   }
 
   ngOnInit(): void {
   }
